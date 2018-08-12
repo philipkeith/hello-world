@@ -1,0 +1,15 @@
+// temperature in Kelvin
+const kelvin = 289;
+
+// temperture in Celsius
+let celsius = kelvin - 273;
+
+// temperature in Fahrenheit
+let fahrenheit = celsius * (9/5) + 32;
+fahrenheit = Math.floor(fahrenheit);
+
+// temperature in Newton
+let newton = celsius * (33/100);
+newton = Math.floor(newton);
+
+console.log(`The temperature of ${kelvin} degrees Kelvin is equal to ${fahrenheit} degrees Fahrenheit. Or ${celsius} degrees Celsius. Or ${newton} degrees Newton`);
